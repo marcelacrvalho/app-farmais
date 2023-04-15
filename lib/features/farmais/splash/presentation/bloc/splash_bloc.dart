@@ -1,10 +1,12 @@
+import 'package:flutter/material.dart';
+
 import '../../domain/usecase.dart';
 
 class SplashBloc {
-  final usecase = SplashUseCase();
 
-  Map<String, dynamic> a = {'a', 1}
-  void openLoginActivity() {
+  void isAuthenticate(){} //TODO: checar se o usuário tem um SHARED PREFERENCES
 
+  void openAuthenticationView(BuildContext context){
+    Navigator.pushNamed(context, '/authentication');
   }
 }
