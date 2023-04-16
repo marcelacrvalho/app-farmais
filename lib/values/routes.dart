@@ -1,4 +1,4 @@
-import '../features/farmais/authentication/presentation/authentication_view.dart';
+import '../farmais/features/authentication/presentation/views/authentication_view.dart';
 
 final myRoute = {
   '/authentication': (context) => const AuthenticationView(),
