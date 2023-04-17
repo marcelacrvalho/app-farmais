@@ -1,6 +1,5 @@
-import 'package:farmais/farmais/utils/entities/user_entity.dart';
-
 import '../../../../utils/entities/token_entity.dart';
+import '../../../../utils/entities/user_entity.dart';
 
 abstract class AuthenticationState {}
 
