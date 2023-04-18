@@ -1,5 +1,5 @@
-import '../../../../utils/entities/error_entity.dart';
-import '../../../../utils/entities/user_entity.dart';
+import '../../../../core/entities/error_entity.dart';
+import '../../../../core/entities/user_entity.dart';
 
 abstract class AuthenticationState {}
 
