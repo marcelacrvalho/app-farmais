@@ -1,7 +1,7 @@
 const title = 'Farmais';
 
 // AuthenticationView
-const hintEmailAuthenticationView = 'Insira seu e-mail';
+const hintCellphoneAuthenticationView = 'Insira seu número de telefone, com DDD';
 const hintPasswordAuthenticationView = 'Escolha sua senha';
 const hintCityAuthenticationView = 'Agora, sua cidade';
 const hintStreetAuthenticationView = 'Sua rua';
