@@ -5,6 +5,7 @@ import '../../../../../values/strings.dart';
 import '../../../../utils/widgets/elevated_button_widget.dart';
 import '../../../../utils/widgets/text_body_widget.dart';
 
+/// This view comes after SplashView if the user is accessing the app for the first time
 class StepperView extends StatelessWidget {
   const StepperView({Key? key}) : super(key: key);
 
