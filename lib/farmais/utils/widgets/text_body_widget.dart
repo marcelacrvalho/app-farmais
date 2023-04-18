@@ -6,7 +6,7 @@ class MyTextBodyWidget extends StatelessWidget {
   const MyTextBodyWidget({
     Key? key,
     required this.text,
-    this.isBodyLarge = false,
+    this.isBodyLarge = true,
   }) : super(key: key);
 
   @override
