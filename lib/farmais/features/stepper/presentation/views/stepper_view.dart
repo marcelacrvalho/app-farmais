@@ -1,3 +1,4 @@
+import 'package:farmais/farmais/features/stepper/presentation/bloc/stepper_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -29,12 +30,11 @@ class StepperView extends StatelessWidget {
               child: SvgPicture.asset('assets/images/step-image.svg'),
             ),
             const Expanded(
-              flex: 2,
               child: Divider(),
             ),
             MyElevatedButtonWidget.widthInfinity(
               textButton: 'Prosseguir',
-              onPressed: () {},
+              onPressed: (){},
             ),
           ],
         ),
