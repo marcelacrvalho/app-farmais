@@ -19,10 +19,18 @@ final myTheme = ThemeData(
     ),
   ),
 
+  elevatedButtonTheme: ElevatedButtonThemeData(
+    style: ElevatedButton.styleFrom(
+      backgroundColor: const Color(0XFFC15151),
+      foregroundColor: Colors.white,
+      elevation: 0.0,
+    ),
+  ),
+
   buttonTheme: ButtonThemeData(
     buttonColor: const Color(0XFFC15151),
     padding: const EdgeInsets.all(16.0),
     disabledColor: Colors.grey,
-    splashColor: Color(0XFFC15151).withOpacity(0.5),
+    splashColor: const Color(0XFFC15151).withOpacity(0.5),
   ),
 );
