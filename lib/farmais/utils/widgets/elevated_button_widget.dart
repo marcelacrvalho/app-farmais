@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-typedef OnPressedFunction = void Function();
+import '../../../values/typedefs.dart';
 
 class MyElevatedButtonWidget extends StatelessWidget {
   final String textButton;
-  final OnPressedFunction onPressed;
+  final OnPressedButtonFunction onPressed;
   final double? width;
-  
+
   const MyElevatedButtonWidget.widthInfinity({
     Key? key,
     required this.textButton,
@@ -24,10 +24,10 @@ class MyElevatedButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      width: width?? double.infinity,
+      width: width ?? double.infinity,
       height: MediaQuery.of(context).size.height * 0.07,
       child: ElevatedButton(
-        onPressed: () {},
+        onPressed: onPressed,
         style: Theme.of(context).elevatedButtonTheme.style,
         child: Text(textButton),
       ),
