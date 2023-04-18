@@ -1,6 +1,8 @@
+import 'package:farmais/values/strings.dart';
 import 'package:flutter/material.dart';
 
 import '../../../../utils/widgets/elevated_button_widget.dart';
+import '../../../../utils/widgets/text_form_field_widget.dart';
 
 /// [it comes after StepperView and it is showed once while user realm is valid]
 class AuthenticationView extends StatelessWidget {
@@ -16,6 +18,10 @@ class AuthenticationView extends StatelessWidget {
   Widget _body() {
     return Column(
       children: [
+        const MyTextFormFieldWidget(hint: hintCellphoneAuthenticationView),
+        const MyTextFormFieldWidget(hint: hintPasswordAuthenticationView),
+        const MyTextFormFieldWidget(hint: hintStreetAuthenticationView),
+        const MyTextFormFieldWidget(hint: hintNumberAuthenticationView),
         MyElevatedButtonWidget.widthInfinity(
           textButton: 'Entrar',
           onPressed: () {},
