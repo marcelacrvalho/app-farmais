@@ -3,4 +3,3 @@ class ServerException implements Exception {
 
   ServerException({required this.message});
 }
-class CacheException implements Exception {}
