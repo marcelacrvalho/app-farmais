@@ -14,9 +14,11 @@ dependencies:
 
   flutter_svg: ^2.0.5
   flutter_bloc: ^8.1.2
+  bloc: ^8.1.1
   dartz: ^0.10.1
   http: ^0.13.5
   flutter_native_splash: ^2.2.19
+  lottie: ^2.3.2
 
 flutter_native_splash:
   color: "#FFFFF"
@@ -35,6 +37,8 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/animations/
+    - assets/fonts/
 
   fonts:
     - family: Lexend Deca
