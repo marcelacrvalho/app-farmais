@@ -1,9 +1,9 @@
 import 'package:dartz/dartz.dart';
 
-import '../errors/exceptions.dart';
+import '../entities/error_entity.dart';
 
 abstract class UseCase<Type, Params> {
-  Future<Either<ServerException, Type>> call(Params params);
+  Future<Either<ErrorEntity, Type>> call(Params params);
 }
 
 class NoParams {}
